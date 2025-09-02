@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     Text scoreTxt;
 
 
-
+    public int numBalls;
     public float speed;
     public int score;
 
