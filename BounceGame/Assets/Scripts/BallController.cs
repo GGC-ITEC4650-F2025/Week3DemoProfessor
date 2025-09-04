@@ -81,6 +81,7 @@ public class BallController : MonoBehaviour
             g.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             g.GetComponent<MeshRenderer>().material.color = Color.green;
             pc.numBalls += 1;
+            g.GetComponent<BallController>().numJumps = 0;
         }
     }
 
